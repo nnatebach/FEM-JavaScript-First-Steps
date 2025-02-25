@@ -25,7 +25,7 @@ functions *do* things
         
     - Declaring and calling a function
         
-        ![image.png](./image/image.png)
+        ![image.png](./image/image_01.png)
         
 2. Parameters & Argument
     - Some functions need more than one value to work
@@ -37,7 +37,7 @@ functions *do* things
         add(2,3);
         ```
         
-        ![image.png](./image/image 1.png)
+        ![image.png](./image/image_02.png)
         
     - Some functions don’t even need any values
         
@@ -65,7 +65,7 @@ functions *do* things
         
         *arguments* are the actual values the function is called with
         
-        ![image.png](./image/image 2.png)
+        ![image.png](./image/image_03.png)
         
         Explanation: The function is going to do a few things
         
@@ -102,11 +102,11 @@ functions *do* things
                 
                 Chrome error
                 
-                ![image.png](./image/image 3.png)
+                ![image.png](./image/image_04.png)
                 
                 Firefox error
                 
-                ![image.png](./image/image 4.png)
+                ![image.png](./image/image_05.png)
                 
                 Reason:
                 
@@ -124,11 +124,11 @@ functions *do* things
                 
                 Chrome error
                 
-                ![image.png](./image/image 5.png)
+                ![image.png](./image/image_06.png)
                 
                 Firefox error
                 
-                ![image.png](./image/image 6.png)
+                ![image.png](./image/image_07.png)
                 
                 Reason: JS cannot even parse this as a name for a parameter.
                 
@@ -146,7 +146,7 @@ functions *do* things
                 const sum = add3(1,2);
                 ```
                 
-                ![image.png](./image/image 7.png)
+                ![image.png](./image/image_08.png)
                 
                 Explanation:
                 
@@ -173,7 +173,7 @@ functions *do* things
                 getRandomNumber("unexpected");
                 ```
                 
-                ![image.png](./image/image 8.png)
+                ![image.png](./image/image_09.png)
                 
                 Explanation:
                 

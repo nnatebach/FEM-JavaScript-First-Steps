@@ -26,7 +26,7 @@ Link: [https://frontendmasters.com/courses/javascript-first-steps/boolean-q-a/](
     
     For example, the value of the button is the string “true”
     
-    ![image.png](9%20Boolean%20Q&A%2017f3ca73cd2080958ee0d475746f1143/image.png)
+    ![image.png](./image/image.png)
     
     Problem: A string will never equal a boolean
     

@@ -84,9 +84,7 @@ if (!someoneIsAroundYou) {
         
         ![image.png](./image/image_06.png)
         
-        **Reason:**
-        
-        Because the variable `forecast` was not declared before using it
+        **Reason:** Because the variable `forecast` was not declared before using it
         
         **Solution:**
         
@@ -95,3 +93,13 @@ if (!someoneIsAroundYou) {
         ```jsx
         let forecast = "sunny"; // Define the variable
         ```
+        
+        **Test:**
+        
+        ```jsx
+        let forecast = "sunny";
+        let mood = forecast === "sunny" ? "happy" : "sad";
+        mood // 'happy'
+        ```
+        
+        ![image.png](./image/image_07.png)

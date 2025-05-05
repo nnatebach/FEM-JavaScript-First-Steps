@@ -296,7 +296,7 @@ function getMultipleChoices(n, correctAnswer, array) {
             			let candidate = getRandomElement(possibleChoices)
             			
             			if (!choices.includes(candidate)) { // Check whether the random element is already in the array "choices" or not
-            				choices.push() // If the random element does not already exist in the array, we push it to the array
+            				choices.push(candidate) // If the random element does not already exist in the array, we push it to the array
             			}
             		}
             		

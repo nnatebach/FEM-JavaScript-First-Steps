@@ -46,7 +46,7 @@ Link: [https://frontendmasters.com/courses/javascript-first-steps/doggo-quiz-whi
             
             `(3) ['boolean', 'undefined', 'string']` 
             
-            `*(3) ['string', 'object', 'array']`* 
+            `(3) ['string', 'object', 'array']` 
             
             `(3) ['array', 'string', 'object']` 
             
@@ -58,7 +58,7 @@ Link: [https://frontendmasters.com/courses/javascript-first-steps/doggo-quiz-whi
             getMultipleChoices(4, "string", ["object", "string", "boolean", "array", "undefined"])
             ```
             
-            `*(4) ['string', 'object', 'array', 'undefined']`* 
+            `(4) ['string', 'object', 'array', 'undefined']` 
             
             `(4) ['array', 'object', 'boolean', 'string']` 
             
@@ -76,7 +76,7 @@ Link: [https://frontendmasters.com/courses/javascript-first-steps/doggo-quiz-whi
             
             `(2) ['boolean', 'object']` 
             
-            `*(2) ['object', 'boolean']`* 
+            `(2) ['object', 'boolean']` 
             
             `(2) ['boolean', 'array']` 
             

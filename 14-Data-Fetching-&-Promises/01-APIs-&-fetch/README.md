@@ -19,7 +19,7 @@ We’re going to tell JavaScript to make the browser fetch the data that we need
         
         `https://dog.ceo/api/breed/hound/list`  is an endpoint from the [Dog CEO’s Dog API](https://dog.ceo/dog-api/) that provides random pictures and information about dog breeds.
         
-        ![The resource at this endpoint is a JSON object, JSON stands for JavaScript Object Notation](./image/image_02_.png)
+        ![The resource at this endpoint is a JSON object, JSON stands for JavaScript Object Notation](./image/image_02.png)
         
         The resource at this endpoint is a JSON object, JSON stands for JavaScript Object Notation
         

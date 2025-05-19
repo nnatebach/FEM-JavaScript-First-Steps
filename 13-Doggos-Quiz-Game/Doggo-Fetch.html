@@ -159,8 +159,14 @@
     // then parse the response as a JSON object,
     // finally return the "message" property of its body
     async function fetchMessage(url) {
-
+      // Given a URL, fetch the resource at that URL,
+      let response = await fetch(url)
+      // then parse the response as a JSON object,
+      let body = await response.json()
+      // finally return the "message" property of its body
+      return {message} = body
     }
+    await fetchMessage("https://dog.ceo/api/breed/hound/list")
 
 
     // Function to add the multiple-choice buttons to the page

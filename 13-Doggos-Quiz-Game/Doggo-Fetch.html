@@ -148,7 +148,8 @@
     function getBreedFromURL(url) {
       // The string method .split(char) may come in handy
       // Try to use destructuring as much as you can
-
+      let unsplitBreed = url.split("/")[4] // get "poodle-standard" out from the url string
+      return [breed, subbreed] = unsplitBreed.split("-").reverse().join(" ").trim() // return the formatted string and remove unnecessary white spaces (if any)
     }
 
 

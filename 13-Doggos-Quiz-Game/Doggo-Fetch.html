@@ -106,22 +106,8 @@
     // Given an array of possible answers, a correct answer value, and a number of choices to get,
     // return a list of that many choices, including the correct answer and others from the array
     function getMultipleChoices(n, correctAnswer, possibleChoices) {
-      // Use a while loop and the getRandomElement() function
-      // Make sure there are no duplicates in the array
-      const choices = []
-
-      // Put stuff in the array
-      choices.push(correctAnswer) // push the correct answer inside the array
-      while (choices.length < n) {
-        // capture getRandomElement value as a "candidate"
-        let candidate = getRandomElement(possibleChoices)
-
-        if (!choices.includes(candidate)) { // Check whether the random element is already in the array "choices" or not
-          choices.push() // If the random element does not already exist in the array, we push it to the array
-        }
-      }
-
-      return shuffleArray(choices);
+        // Use a while loop and the getRandomElement() function
+        // Make sure there are no duplicates in the array
     }
 
     

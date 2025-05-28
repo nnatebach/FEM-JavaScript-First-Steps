@@ -160,14 +160,12 @@
     // finally return the "message" property of its body
     async function fetchMessage(url) {
       // Given a URL, fetch the resource at that URL,
-      let response = await fetch(url)
+      const response = await fetch(url)
       // then parse the response as a JSON object,
-      let body = await response.json()
+      const { message } = await response.json()
       // finally return the "message" property of its body
-      return {message} = body
-    }
-    await fetchMessage("https://dog.ceo/api/breed/hound/list")
-
+      return { message };
+    };
 
     // Function to add the multiple-choice buttons to the page
     function renderButtons(choicesArray, correctAnswer) {
@@ -228,8 +226,9 @@
 
     // TODO 5
     // Asynchronously call the loadQuizData() function,
-    // Then call renderQuiz() with the returned imageUrl, correctAnswer, and choices 
-
+    // Then call renderQuiz() with the returned imageUrl, correctAnswer, and choices
+    const [imgUrl, correctAnswer, choices] = await loadQuizData()
+    renderQuiz(imgUrl, correctAnswer, choices);
 
 
 

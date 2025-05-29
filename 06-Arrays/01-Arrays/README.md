@@ -36,16 +36,16 @@ let synonyms = ["plethora", "array", "cornucopia"];
     
     - `synonyms[1] = "variety";`
         
-        ![image.png](1%20Arrays%2017f3ca73cd2080c0a594fa1abd3451c4/image.png)
+        ![image.png](./image/image_01.png)
         
     - `let lastItem = synonyms.pop();`
         
-        ![image.png](1%20Arrays%2017f3ca73cd2080c0a594fa1abd3451c4/image%201.png)
+        ![image.png](./image/image_02.png)
         
         What happened to the “synonyms” array after “pop()”?
         
-        ![image.png](1%20Arrays%2017f3ca73cd2080c0a594fa1abd3451c4/image%202.png)
+        ![image.png](./image/image_03.png)
         
     - `synonyms.push("multitude");`
         
-        ![image.png](1%20Arrays%2017f3ca73cd2080c0a594fa1abd3451c4/image%203.png)
+        ![image.png](./image/image_04.png)

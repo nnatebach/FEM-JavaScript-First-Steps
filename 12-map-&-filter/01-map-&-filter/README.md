@@ -174,3 +174,44 @@ The **map** & **filter** methods also let us process all the items in an arr
         ```
         
         ![image.png](./image/image_07.png)
+
+- Bonus: find() vs filter()
+    - [find()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/find) - this method returns the **first** element in the provided array that **satisfies** the provided **testing** function. If no values satisfy the testing function, [`undefined`](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined) is returned.
+        
+        ```jsx
+        const array = [1,5,7,8,9,7]
+        
+        const found = array1.find((element) => element === 7);
+        
+        console.log(found);
+        // Expected output: 7
+        ```
+        
+        ![image.png](./image/image_08.png)
+        
+        Syntax
+        
+        ```jsx
+        find(callbackFn)
+        find(callbackFn, thisArg)
+        ```
+        
+    - [filter()](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter) - this method creates a [shallow copy](https://developer.mozilla.org/en-US/docs/Glossary/Shallow_copy) of a **portion** of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
+        
+        ```jsx
+        const array2 = [1,5,7,8,9,7]
+        
+        const filtered = array2.filter((element) => element === 7);
+        
+        console.log(filtered);
+        // Expected output: [7,7]
+        ```
+        
+        ![image.png](./image/image_09.png)
+        
+        Syntax
+        
+        ```jsx
+        filter(callbackFn)
+        filter(callbackFn, thisArg)
+        ```
